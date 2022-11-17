@@ -13,7 +13,6 @@ export const Form = styled.form`
   padding: 30px;
   text-align: center;
   width: 350px;
-  background-color: aliceblue;
 `;
 
 export const Label = styled.label`
@@ -25,7 +24,7 @@ export const Input = styled.input`
   margin: 5px;
   border-top: 0;
   border-right: 0;
-  border-bottom: 2px solid #333;
+  // border-bottom: 2px solid #333;
   border-left: 0;
   :focus {
     outline: none;
@@ -43,7 +42,7 @@ export const Button = styled.button`
   margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.42857143;
+  line-height: 1.4;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -60,7 +59,7 @@ export const Button = styled.button`
   color: #fff;
   background-color: teal;
   border-color: #46b8da;
-  transition: ease-in-out 0.5s;
+  // transition: ease-in-out 0.5s;
   opacity: 0.6;
   :hover {
     opacity: 1;

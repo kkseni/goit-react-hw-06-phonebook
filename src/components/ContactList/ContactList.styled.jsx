@@ -32,7 +32,7 @@ export const Button = styled.button`
   border-radius: 30px;
   font-weight: 600;
   color: #025600;
-  background-size: 100% 100%;
+  // background-size: 100% 100%;
   box-shadow: 0 0 0 7px #92de34 inset; */
   /* todo */
   display: inline-block;
